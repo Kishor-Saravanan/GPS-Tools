@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS Tools</string>
+    <string-array name="time_windows">
+        <item>± 1 minute</item>
+        <item>± 5 minutes</item>
+        <item>± 15 minutes</item>
+        <item>± 30 minutes</item>
+        <item>± 1 hour</item>
+        <item>± 2 hours</item>
+    </string-array>
+    <integer-array name="time_windows_ms">
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+    </integer-array>
+</resources>

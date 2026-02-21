@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- GPS pin drop shape -->
+    <path
+        android:fillColor="#00FF88"
+        android:pathData="M54,20 C42,20 32,30 32,42 C32,58 54,80 54,80 C54,80 76,58 76,42 C76,30 66,20 54,20Z"/>
+
+    <!-- Inner circle hole: cx=54,cy=42,r=9 drawn as two 180° arcs -->
+    <path
+        android:fillColor="#0A0A1A"
+        android:pathData="M63,42 A9,9,0,1,0,45,42 A9,9,0,1,0,63,42 Z"/>
+
+</vector>
